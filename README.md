@@ -1,33 +1,19 @@
-# TextUtils
+# ImageUploader
 
-**TextUtils** is a Django-based web application designed to help users process text effectively. It offers tools for text cleaning, case conversion, and basic text analytics, making it ideal for formatting or analyzing text.
+**ImageUploader** is a lightweight and straightforward Django project for uploading and managing images. This project focuses on simplicity and functionality, making it ideal for basic image management tasks. With no frontend (HTML or CSS), all operations are handled via the Django admin panel.
 
----
+## Features
 
-## 🚀 Features
+- Effortless image uploading and management through the Django admin interface.
+- Minimal setup required — perfect for small-scale projects or learning purposes.
+- Fully utilizes Django's built-in features for a seamless backend experience.
+- No additional frontend — pure admin-based functionality.
 
-1. **Remove Punctuations**: Easily strip away unwanted punctuation marks.
-2. **Case Conversion**:
-   - Convert text to **Uppercase** or **Lowercase**.
-3. **Remove New Lines**: Flatten text by removing unnecessary line breaks.
-4. **Remove Extra Spaces**: Clean up text by removing extra spaces.
-5. **Character Counter**: Get the exact count of characters in your text.
+## Requirements
 
----
+To run this project, ensure the following tools and libraries are installed on your system:
 
-## 🔧 Technologies Used
+- **Python**: Version 3.8 or higher
+- **Django**: Version 3.x or higher
+- A working Python environment (e.g., virtualenv, pip)
 
-- **Frontend**:
-  - HTML
-  - CSS
-- **Backend**:
-  - Python (Django Framework)
-
----
-
-## 📂 Use the Features
-
-- Enter your text into the provided text box.
-- Select one or more features (e.g., Remove Punctuations, Convert to Uppercase, Remove New Lines).
-- Click the Submit button to process your text.
-- View the transformed text on the result page.
